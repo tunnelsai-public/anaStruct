@@ -414,7 +414,7 @@ class SystemElements:
         This can be done by adding a new Vertex at any given location, or by setting a factor of the elements
         length. E.g. if you want a node at 40% of the elements length, you pass factor = 0.4.
 
-        Note: this method completely rebuilds the SystemElements object and is therefore slower then building
+        Note: this method completely rebuilds the SystemElements object and is therefore slower than building
         a model with `add_element` methods.
 
         :param element_id: (int) Id number of the element you want to insert the node.
