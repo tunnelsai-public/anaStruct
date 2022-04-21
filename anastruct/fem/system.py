@@ -10,6 +10,9 @@ from anastruct.vertex import vertex_range
 from anastruct.sectionbase import properties
 from anastruct.fem.util.load import LoadCase
 
+import collections                                         
+collections_abc = getattr(collections, 'abc', collections)
+
 from typing import (
     Tuple,
     Union,
